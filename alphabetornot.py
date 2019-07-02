@@ -1,6 +1,5 @@
-# alphabet
-sam=input()
-if (sam>='a' and sam <='z') or (sam >='A' and sam <='Z'):
-  print("Alphabet")
+a=str(input())
+if (x.isalpha())==True:
+    print("Alphabet")
 else:
-  print("NO")
+    print("No")
