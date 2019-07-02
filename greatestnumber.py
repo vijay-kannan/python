@@ -1,0 +1,10 @@
+p11,q22,r33=map(int,input().split())
+if(p11>q22):
+    if(p11>r33):
+        print(p11)
+    else:
+        print(r33)
+elif(q22>r33):
+    print(q22)
+else:
+    print(r33)
